@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #fbb12f;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.triangle{
+    height: 0;
+    width: 0;
+    border-bottom: 250px solid white;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+} 
