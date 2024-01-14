@@ -1,0 +1,24 @@
+h1{
+    color: chartreuse;
+}
+
+#This_IS_FOR_ID{
+    color: cadetblue;
+}
+
+.THis_IS_FOR_CLASS{
+
+    color :chocolate;
+}
+
+h2{
+    color:brown;
+}
+
+h3,div{
+    color: cornflowerblue;
+}
+
+*{
+    color: darkgreen;
+}
