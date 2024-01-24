@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*For Descending Selector*/
+        div1 {
+            color:aqua;
+        }
+        /*For Child Selector*/
+        div2 > p{
+            color: red;
+        }
+
+        /*For Adjacent Sibling Selector*/
+        div3 + p{
+            color: chartreuse;
+        }
+
+        /*For General Sibling Selector*/
+        div4~p{
+            color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <!--Descending Selector (Space)-->
+    <h1>Descending Selector</h1>
+    <div1>
+        <p>Father</p>
+        <p>Mother</p>
+        <p>Children1</p>
+        <p>Children2</p>
+        <section>
+            <p>Cousine1</p>
+            <p>Cousine2</p>
+        </section>
+    </div1>
+    <p>N1</p>
+    <p>N2</p>
+    <p>N3</p>
+
+    <!--Child Selector  (>)-->
+    <h1>Child Selector</h1>
+    <div2>
+        <p>Sayan</p>
+        <p>Rupam</p>
+        <p>Children1</p>
+        <p>Children2</p>
+        <section>
+            <p>Cousine1</p>
+            <p>Cousine2</p>
+        </section>
+    </div2>
+    <p>N1</p>
+    <p>N2</p>
+    <p>N3</p>
+
+    
+    <!--Adjacent Sibling Selector (+)-->
+    <h1>Adjacent Sibling Selector</h1>
+    <div3>
+        <p>Surya</p>
+        <p>Arghya</p>
+        <p>Children1</p>
+        <p>Children2</p>
+        <section>
+            <p>Cousine1</p>
+            <p>Cousine2</p>
+        </section>
+    </div3>
+    <p>N1</p>
+    <p>N2</p>
+    <p>N3</p>
+
+
+    <!--General Sibling Selector (~)-->
+    <h1>General Sibling Selector</h1>
+    <div4>
+        <p>Sanu</p>
+        <p>Rahul</p>
+        <p>Children1</p>
+        <p>Children2</p>
+        <section>
+            <p>Cousine1</p>
+            <p>Cousine2</p>
+        </section>
+    </div4>
+    <p>N1</p>
+    <p>N2</p>
+    <p>N3</p>
+
+
+</body>
+</html>
