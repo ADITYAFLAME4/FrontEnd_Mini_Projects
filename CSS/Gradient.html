@@ -5,16 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-        div{
-            height:500px;
+        /*LENEAR GRADIENT*/
+        #LIN_GRAD{
+            height:200px;
+            width: 100% ;
+            background-image: linear-gradient(red,yellow);
+        }
+        /*REPEATING LENEAR GRADIENT*/
+        #REP_LIN_GRAD{
+            height:200px;
             width: 100%;
             background-image:repeating-linear-gradient(red , orange , yellow , green , blue , indigo , violet );
         }
+
+        /* RADIAL GRADIENT */
+
+        #RAD_GRAD{
+            height: 200px;
+            width: 200px;
+            background-image: radial-gradient(circle, Red 30%, Yellow 50%,Green 30%);
+        }
+
+        /* REPEATING RADIAL GRADIENT */
+
+        #REP_RAD_GRAD{
+            height: 200px;
+            width: 200px;
+            background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+        }
+
+        /* CONIC GRADIENT */
+        #CON_GRAD{
+            height: 200px;
+            width: 200px;
+            background-image: conic-gradient(red, yellow, green, blue, black);
+        }
+
+        /* REPEATING CONIC GRADIENT */
+        #REP_CON_GRAD{
+            height: 200px;
+            width: 200px;
+            background-image: repeating-conic-gradient(green 10%, blue 20%);
+            border-radius: 50%;
+        }
+
     </style>
 </head>
 <body>
-    <div>
+    <h1>Repeating Lenear Gradient</h1>
+    <div id="REP_LIN_GRAD">
+
+    </div>
+    <br>
+    <h1>LENEAR GRADIENT</h1>
+    <div id="LIN_GRAD">
+
+    </div>
+    <br>
+    <h1>RADIAL GRADIENT</h1>
+    <div id="RAD_GRAD">
+
+    </div>
+    <br>
+    <h1>REPEATING RADIAL GRADIENT</h1>
+    <div id="REP_RAD_GRAD">
+
+    </div>
+    <br>
+    <h1>CONIC GRADIENT</h1>
+    <div id="CON_GRAD">
+
+    </div>
+    <br>
+    <h1>REPEATING CONIC GRADIENT</h1>
+    <div id="REP_CON_GRAD">
 
     </div>
 </body>
