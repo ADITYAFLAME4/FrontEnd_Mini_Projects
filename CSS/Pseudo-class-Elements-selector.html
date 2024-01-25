@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Dynamic */
+
+        /* :Link */
         a:link{
-            color: aquamarine;
+            color: aquamarine; /* unvisited link Color*/
         }
 
+        /* :Visited  */
         a:visited{
             color:chartreuse;
         }
+
+        /* :Hover */
 
         a:hover{
             color:cadetblue;
         }
 
-        a:active{
+        /* :Active */
+
+        a:active {
             color: black;
         }
+
+         /* :Hover */
+
         button{
             background-color: yellow;
         }
@@ -27,12 +38,39 @@
         button:hover{
             background-color:green;
         }
+
+        /* Structural */
+
+         /* :first-child  */
+
+         p:first-child {
+            color: red;
+         }
+
+         /* :last-child  */ 
+         p:last-child {
+            color: blue;
+         }
+
+         /* :first-of-type*/
+         p:first-of-type{
+            background:  yellow;
+         }
+
+         /* :last-of-type*/
+         p:last-of-type{
+            background: cyan;
+         }
     </style>
 </head>
 <body>
-    
-
-    <a href="">Google</a>
+<div>
+    <p>This is first-child of this para.</p>
+    <p>This is second child of this para.</p>
+    <p>This is third child of this para.</p>
+    <p>This is last-child of this para.</p>
+</div>
+    <a href="https://www.google.com/" target="_blank">Google</a><br><br>
     <button>SUBMIT</button>
 </body>
 </html>
