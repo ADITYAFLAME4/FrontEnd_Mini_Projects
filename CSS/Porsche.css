@@ -1,0 +1,56 @@
+/* Back Ground*/
+body{
+    margin: 0px; /* To Remove the Box Margin from the webpage*/
+}
+
+.BG-IMG{
+    height: auto; /*To set height of the background Image*/
+    width: 100%; /*To set width of the background Image*/
+}
+
+/* MAIN DIV*/
+.Main{
+
+    height: 60px; /* Defines The height of Navbar(Main DIV)*/
+    background-color: black; /* Defines BACKGROUND COLOR  of NAvbar*/
+    display: flex; /*To make all dives come side by side*/
+    align-items: center; /*Helps to make all div items come center from top to down of main div(Navbar)*/
+    justify-content: space-between; /*Gives equal space between all dives*/
+}
+
+/* Search Bar*/
+
+.Search-Button{
+    background-color: #cc8a3f; /*Set The background color of the button*/
+}
+
+
+/* Menu Options */
+
+.Menu_Options{
+    width: 700px; /*Gives 700px gap from right to left (Main DIv End) and Left to Right (Search bar)*/
+}
+
+/* Menu Option (ITEMS)*/
+
+ul{
+    display: flex; /* TO make all Menu Items side by side*/
+    justify-content: space-evenly; /*Give space between all menu items Evenly*/
+    list-style: none; /*Remove Bullets from List Items*/
+    width: 600px;/* Gives width between and from bigning of List*/
+}
+
+a{
+    text-decoration: none; /*Removes underline from List Items*/
+    font-size: 20px; /* Change the font size of list items */
+    font-weight: 1000; /*Decrease distance between the list items*/
+    color: white; /* Set Colors of the list item fonts */
+}
+
+a:hover{
+    text-decoration:underline;
+    font-size: 25px;
+    font-weight: 1000;
+    color: #cc8a3f;
+    transition: 5ms;
+}

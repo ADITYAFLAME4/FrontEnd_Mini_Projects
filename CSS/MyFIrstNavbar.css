@@ -27,6 +27,13 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration:underline;
+    font-size: 25px;
+    font-weight: 1150;
+    color: #cc8a3f;
+}
+
 
 .BGIMG{
     height: 100%;
