@@ -1,0 +1,19 @@
+.In0{
+    height: 100px;
+    width: 100px;
+}
+.In1{
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+.In2{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+.In3{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
