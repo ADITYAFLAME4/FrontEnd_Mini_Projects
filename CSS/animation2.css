@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    background-color: rgb(216, 106, 106);
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    position: absolute;
+    animation-direction: reverse;
+}
+
+@keyframes movement{
+    0%{background-color:red; left: 50%; top: 50%;}
+    25%{background-color:yellow; left: 100%; top: 50%;}
+    50%{background-color:aqua; left: 100%; top: 100%;}
+    75%{background-color:green; left: 50%; top: 100%;}
+    100%{background-color:blue; left: 50%; top: 50%;}
+}
+
