@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+
+.form{
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 4em aqua;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(225, 208, 176) ;
+    
+    
+}
+
+h4{
+    position: absolute;
+    
+    left: 50%;
+    top: -3%;
+    transform: translate(-50%);
+    color: blue;
+    font-weight: bold;
+    font-size: larger ;
+    
+}
+
+.username{
+    height: 10px;
+    width: 100px;
+}
+
+
+table{
+
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    
+
+
+}
+
+button{
+    position: relative;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 0cap;
+    margin-left: 45%;
+    margin-top: 5%;
+    font-size: 10px;
+    animation-name: submit;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 1em aqua;
+    transition-duration: 1s;
+
+}
+
+@keyframes submit{
+    0%{background-color: aqua;}
+    50%{background-color:yellow;}
+    100%{background-color: blueviolet;}
+
+}
+
+button:hover{
+    width: 80px ;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pass{
+    height: 10px;
+    width: 100px;
+    margin-left: 11px;
+
+}
+
+
