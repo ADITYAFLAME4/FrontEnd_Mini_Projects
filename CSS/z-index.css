@@ -1,0 +1,22 @@
+
+div{display: block;}
+.div1{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    z-index: 0;
+    }
+.div2{
+    height: 150px;
+    width: 150px;
+    top: -50px;
+    left: 50px;
+    position: relative;
+}
+.div3{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
