@@ -1,0 +1,206 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: black;
+}
+
+
+.grid1{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement1 ;
+   animation-duration: 2s;
+   position: relative;
+}
+
+.grid2{
+    background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement2 ;
+   animation-duration: 2s;
+   position: relative;
+}
+
+.grid3{
+    background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement3 ;
+   animation-duration: 2s;
+   position: relative;
+}
+.grid4{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement4 ;
+   animation-duration: 2s;
+   position: relative;
+}
+
+.grid5{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement5 ;
+   animation-duration: 2s;
+   position: relative;
+}
+
+.grid6{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement6 ;
+   animation-duration: 2s;
+   position: relative;
+}
+.grid7{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name: movement7;
+   animation-duration: 2s;
+   position: relative;
+}
+.grid8{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name:movement8 ;
+   animation-duration: 2s;
+   position: relative;
+}
+.grid9{
+   background-color: aqua;
+   border: 2px solid red;
+   color: white;
+   padding: 20px;
+   animation-iteration-count: infinite;
+   animation-name: movement9 ;
+   animation-duration: 2s;
+   position: relative;
+}
+@keyframes movement1{
+    0%{background-color:red;}
+    25%{background-color:yellow;}
+    50%{background-color:aqua;}
+    75%{background-color:green;}
+    100%{background-color:blue;}
+
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(180deg);}
+}
+
+@keyframes movement2{
+   0%{background-color:blue;}
+   25%{background-color:aqua;}
+   50%{background-color:yellow;}
+   75%{background-color:green;}
+   100%{background-color:red;}
+
+   
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(-180deg);}
+}
+
+@keyframes movement3{
+   0%{background-color:aqua;}
+   25%{background-color:blue;}
+   50%{background-color:green;}
+   75%{background-color:red;}
+   100%{background-color:yellow;}
+
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(180deg);}   
+}
+
+@keyframes movement4{
+   0%{background-color:blue;}
+   25%{background-color:aqua;}
+   50%{background-color:yellow;}
+   75%{background-color:red;}
+   100%{background-color:green;}
+
+   
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(-180deg);}
+}
+
+@keyframes movement5{
+   0%{background-color:yellow;}
+   25%{background-color:red;}
+   50%{background-color:green;}
+   75%{background-color:blue;}
+   100%{background-color:aqua;}
+
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(180deg);}
+}
+
+@keyframes movement6{
+   0%{background-color:green;}
+   25%{background-color:yellow;}
+   50%{background-color:aqua;}
+   75%{background-color:blue;}
+   100%{background-color:red;}
+
+   
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(-180deg);}
+}
+
+@keyframes movement7{
+   0%{background-color:aqua;}
+   25%{background-color:yellow;}
+   50%{background-color:blue;}
+   75%{background-color:green;}
+   100%{background-color:red;}
+
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(180deg);}
+}
+
+@keyframes movement8{
+   0%{background-color:blue;}
+   25%{background-color:yellow;}
+   50%{background-color:aqua;}
+   75%{background-color:red;}
+   100%{background-color:green;}
+
+   
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(-180deg);}
+}
+
+@keyframes movement9{
+   0%{background-color:yellow;}
+   25%{background-color:blue;}
+   50%{background-color:aqua;}
+   75%{background-color:green;}
+   100%{background-color:red;}
+
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(180deg);}
+}
