@@ -1,0 +1,232 @@
+body{
+    background-color: black;
+    background-image: url(./OspaceNew.jpg);
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.sun{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 40px orange,0px 0px 80px orangered,
+    0px 0px 100px red;
+    background-image: url("./sun-blasts-a-m66-flare-removebg-preview.png");
+    background-position: center;
+}
+
+span{
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.planet1{
+    height: 500px;
+    width: 500px;
+    border: 0.5px solid white;
+    animation-duration: 2s;
+    
+
+
+}
+
+.planet2{
+    height: 700px;
+    width: 700px;
+    border: 0.5px solid white;
+    animation-duration: 3s;
+}
+
+.planet3{
+    height: 1200px;
+    width: 1200px;
+    border: .5px solid white;
+    animation-duration: 4s;
+}
+
+.planet4{
+    height: 1600px;
+    width: 1600px;
+    border: .5px solid white;
+    animation-duration: 5s;
+} 
+
+.planet5{
+    height: 1800px;
+    width: 1800px;
+    border: .5px solid white;
+    animation-duration: 6s;
+} 
+
+.planet6{
+    height: 2150px;
+    width: 2150px;
+    border: .5px solid white;
+    animation-duration: 7s;
+} 
+
+.planet7{
+    height: 2450px;
+    width: 2450px;
+    border: .5px solid white;
+    animation-duration: 8s;
+} 
+
+.planet8{
+    height: 2700px;
+    width: 2700px;
+    border: .5px solid rgb(255, 255, 255);
+    animation-duration: 9s;
+} 
+
+span::before,span::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.planet1::before{
+    /*Murcury*/
+    height: 60px;
+    width: 60px;
+    left: 120px; 
+    box-shadow: 0px 0px 10px #9c8e73,0px 0px 40px #635a49,
+    0px 0px 60px #585143;
+    background-image: url(./istockphoto-499771042-612x612-removebg-preview.png);
+    background-position: center;
+}
+
+.planet2::after{
+    /*Venus*/
+    height: 68px;
+    width: 68px;
+    box-shadow: 0px 0px 10px #f9c758,0px 0px 40px #b59142,
+    0px 0px 60px #675225;
+    right: 70px;
+    background-image: url(./venus-removebg-preview.png);
+    background-position: center;
+}
+
+.planet3::after{
+    /*Earth*/
+    animation-name: earthMove;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    height: 68px;
+    left: 300px;
+    width: 68px;
+    /* right: 100px; */
+    top:20px;
+    background-image: url(./earth-11015_640-removebg-preview.png);
+    background-position: center;
+}
+
+@keyframes earthMove{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(400deg);}
+}
+
+
+
+.planet4::after{
+    /*Mars*/
+    height: 68px;
+    width: 68px;
+    left: 400px;
+    
+    background-image: url(./Mars-removebg-preview.png);
+    background-position: center;
+    box-shadow: 0px 0px 10px #9f4932,0px 0px 40px #462923,
+    0px 0px 60px #2b2211;
+    
+}
+
+.planet5::after{
+    /*Jupitar*/
+    height: 68px;
+    width: 68px;
+    left: 460px ;
+    background-image: url(./Jupitarremovebg-preview.png);
+    background-position: center;
+    box-shadow: 0px 0px 10px #ead7b7,0px 0px 40px #cb863e,
+    0px 0px 60px #ba9e76;
+}
+
+.planet6::after{
+    /*Saturn*/
+    height: 100px;
+    width: 100px;
+    left: 570px;
+    box-shadow: 0px 0px 10px  #e9d8cd,0px 0px 40px  #f4e4d9,
+    0px 0px 60px  #f5ece6;
+    background-image: url(./saturn.png);
+    background-position:center;
+}
+
+
+
+.planet7::after{
+    /*Urenus*/
+    height: 68px;
+    width: 68px;
+    left: 750px;
+    box-shadow: 0px 0px 10px #6d8284,0px 0px 40px #7fa2a4,
+    0px 0px 60px #c8eef1;
+    background-image: url(./urenus.png);
+    background-position: center;
+}
+
+.planet8::after{
+    /*Neptune*/
+    height: 68px;
+    width: 68px;
+    left:850px;
+    box-shadow: 0px 0px 10px  #4779fd,0px 0px 40px  #2c60ee,
+    0px 0px 60px  #0647f8;
+    background-image: url(./Neptune-removebg-preview.png);
+    background-position: center;
+}
+
+.planet{
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes move{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
+
+.moon{
+    height: 100px;
+    width: 100px;
+    
+    /* border-radius: 5px; */
+    position: absolute;
+    box-shadow: 0px 0px 40px orange,0px 0px 80px orangered,
+    0px 0px 100px red;
+    background-image: url(./the-moon.png);
+
+    }
