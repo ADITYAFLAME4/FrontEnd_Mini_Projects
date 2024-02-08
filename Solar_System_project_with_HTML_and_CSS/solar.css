@@ -1,11 +1,23 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: black;
-    background-image: url(./OspaceNew.jpg);
-    background-size:contain;
+    background-image: url(./vgqEbKB.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* p{
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    left: -62px;
+    top: -11px;
+} */
 
 .space{
     display: flex;
@@ -28,6 +40,7 @@ body{
     background-position: center;
 }
 
+
 span{
     display: inline-block;
     border-radius: 50%;
@@ -38,59 +51,74 @@ span{
 .planet1{
     height: 500px;
     width: 500px;
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     animation-duration: 2s;
-    
-
-
 }
 
 .planet2{
     height: 700px;
     width: 700px;
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     animation-duration: 3s;
 }
 
 .planet3{
     height: 1200px;
     width: 1200px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     animation-duration: 4s;
+}
+
+.planet3 .moon{
+    height: 250px;
+    width: 250px;
+    left: 210px;
+    top: -80px;
+    /* border:.5px solid blue; */
+    animation-name: Moon_move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+}
+
+
+@keyframes Moon_move{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 
 .planet4{
     height: 1600px;
     width: 1600px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     animation-duration: 5s;
 } 
 
 .planet5{
     height: 1800px;
     width: 1800px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     animation-duration: 6s;
 } 
 
 .planet6{
     height: 2150px;
     width: 2150px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     animation-duration: 7s;
 } 
 
 .planet7{
     height: 2450px;
     width: 2450px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     animation-duration: 8s;
 } 
 
 .planet8{
     height: 2700px;
     width: 2700px;
-    border: .5px solid rgb(255, 255, 255);
+    /* border: .5px solid rgb(132, 132, 132); */
     animation-duration: 9s;
 } 
 
@@ -105,11 +133,19 @@ span::before,span::after{
     height: 60px;
     width: 60px;
     left: 120px; 
+    position: absolute;
     box-shadow: 0px 0px 10px #9c8e73,0px 0px 40px #635a49,
     0px 0px 60px #585143;
     background-image: url(./istockphoto-499771042-612x612-removebg-preview.png);
     background-position: center;
 }
+/* .planet .planet1:hover{
+   content: "Murcury";
+   color: white;
+   font-size: 100px;
+   font-family: sans-serif;
+
+} */
 
 .planet2::after{
     /*Venus*/
@@ -125,32 +161,45 @@ span::before,span::after{
 .planet3::after{
     /*Earth*/
     animation-name: earthMove;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-
     height: 68px;
-    left: 300px;
     width: 68px;
-    /* right: 100px; */
+    left: 300px;
     top:20px;
     background-image: url(./earth-11015_640-removebg-preview.png);
     background-position: center;
 }
 
+.earth{
+    animation-name: earthMove;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 @keyframes earthMove{
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(400deg);}
+    0%{rotate: 0deg;} 
+    100%{rotate: 360deg;}
 }
 
 
+.planet3 .moon::before{
+    /*Moon*/
+    height: 30px;
+    width: 30px;
+    left: 50px;
+    background-color: red;
+    background-image: url(./the-moon.png);
+    background-position: center;
+}
 
 .planet4::after{
     /*Mars*/
     height: 68px;
     width: 68px;
     left: 400px;
-    
     background-image: url(./Mars-removebg-preview.png);
     background-position: center;
     box-shadow: 0px 0px 10px #9f4932,0px 0px 40px #462923,
@@ -216,17 +265,3 @@ span::before,span::after{
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
 }
-
-
-
-.moon{
-    height: 100px;
-    width: 100px;
-    
-    /* border-radius: 5px; */
-    position: absolute;
-    box-shadow: 0px 0px 40px orange,0px 0px 80px orangered,
-    0px 0px 100px red;
-    background-image: url(./the-moon.png);
-
-    }
