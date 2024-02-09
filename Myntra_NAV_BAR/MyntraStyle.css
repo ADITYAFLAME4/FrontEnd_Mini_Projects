@@ -1,0 +1,234 @@
+body{
+    background-color: rgb(234, 234, 234);
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+
+.Menu_Options{
+    position: absolute;
+    width: 700px;
+    left: 3%;
+}
+
+ul{
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+    display: flex; 
+    width: 600px;
+}
+
+li{
+    position: relative;
+    margin: 0;
+    padding: 0.2em;
+}
+
+a{
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 690;
+    color: black;
+}
+.MEN{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 22px;
+    padding-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.WOMEN{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.KIDS{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 20px;
+    padding-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.HOMELI{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 10px;
+    padding-right: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.BEAUTY{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 40px;
+    padding-right: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.STUDIO{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 15px;
+    padding-right: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pointer{
+    display:none;    
+    transition: 0.3s ease-out;
+}
+
+li:nth-child(1):hover ~ .pointer
+{
+    /*MEN*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 55px;
+        background-color: #ee5f73;
+        left: 98px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+li:nth-child(2):hover ~ .pointer
+{
+        /*WOMEN*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 75px;
+        background-color: #fb56c1;
+        left: 174px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+
+li:nth-child(3):hover ~ .pointer
+{
+        /*KIDS*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 65px;
+        background-color: #f26a10;
+        left: 260px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+
+li:nth-child(4):hover ~ .pointer
+{
+        /*HOME & LIVING*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 140px;
+        background-color: #f2c210;
+        left: 325px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+
+li:nth-child(5):hover ~ .pointer
+{
+        /*BEAUTY*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 70px;
+        background-color: #0db7af;
+        left: 475px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+
+li:nth-child(6):hover ~ .pointer
+{       
+        /*STUDIO*/
+        display: block;
+        top: 94px;
+        position: absolute;
+        height: 3px;
+        width: 75px;
+        background-color: #ff3f6c;
+        left: 555px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+.Search{
+    position: absolute;
+    top: 25px;
+    left: 690px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    align-items: center;
+    left: 5%;
+    top: 4%;
+    color: rgb(129, 129, 129);
+}
+.Search-Box{
+    height: 32px;
+    width: 570px;
+    border-radius: 8px;
+    border: solid white;
+    background-color: #e5e5e5;
+    
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    width: 190px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    left: 1280px;
+} 
+
+
+
