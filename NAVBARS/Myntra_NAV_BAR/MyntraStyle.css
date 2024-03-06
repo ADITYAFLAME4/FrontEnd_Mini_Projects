@@ -114,7 +114,7 @@ li:nth-child(1):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 55px;
         background-color: #ee5f73;
         left: 98px;
@@ -128,7 +128,7 @@ li:nth-child(2):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 75px;
         background-color: #fb56c1;
         left: 174px;
@@ -143,7 +143,7 @@ li:nth-child(3):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 65px;
         background-color: #f26a10;
         left: 260px;
@@ -158,10 +158,10 @@ li:nth-child(4):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 140px;
         background-color: #f2c210;
-        left: 325px;
+        left: 330px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
 }
@@ -173,7 +173,7 @@ li:nth-child(5):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 70px;
         background-color: #0db7af;
         left: 475px;
@@ -188,7 +188,7 @@ li:nth-child(6):hover ~ .pointer
         display: block;
         top: 94px;
         position: absolute;
-        height: 3px;
+        height: 2px;
         width: 75px;
         background-color: #ff3f6c;
         left: 555px;
