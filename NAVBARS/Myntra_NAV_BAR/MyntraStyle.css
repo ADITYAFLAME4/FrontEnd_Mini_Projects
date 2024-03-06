@@ -200,6 +200,11 @@ li:nth-child(6):hover ~ .pointer
     position: absolute;
     top: 25px;
     left: 690px;
+    outline: none;
+}
+.Search:active{
+    outline: none;
+    border: none;
 }
 .fa-magnifying-glass{
     position: relative;
@@ -229,6 +234,13 @@ li:nth-child(6):hover ~ .pointer
     text-align: center;
     left: 1280px;
 } 
+.HOMELI{
+    
+    word-spacing: 5px;
+
+
+}
+
 
 
 
