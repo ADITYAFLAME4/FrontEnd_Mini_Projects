@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -41,7 +43,7 @@ body{
 }
 
 
-span{
+span,h1{
     display: inline-block;
     border-radius: 50%;
     position: absolute;
@@ -147,7 +149,7 @@ span::before,span::after{
 
 } */
 
-.planet2::after{
+h2,.planet2::after{
     /*Venus*/
     height: 68px;
     width: 68px;
@@ -197,6 +199,7 @@ span::before,span::after{
 
 .planet4::after{
     /*Mars*/
+    
     height: 68px;
     width: 68px;
     left: 400px;
@@ -204,6 +207,7 @@ span::before,span::after{
     background-position: center;
     box-shadow: 0px 0px 10px #9f4932,0px 0px 40px #462923,
     0px 0px 60px #2b2211;
+    
     
 }
 
@@ -257,6 +261,7 @@ span::before,span::after{
     animation-name: move;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    /* border: 10px solid red; */
 }
 
 
